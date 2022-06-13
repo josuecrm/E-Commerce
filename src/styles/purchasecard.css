@@ -1,0 +1,44 @@
+.card-purchase {
+    width: 960px;
+    min-width: 500px;
+    border-radius: 15px;
+    border: .3px solid rgb(203, 203, 203);
+    margin: 20px 50px;
+    padding: 15px;
+}
+
+.detail-purchase {
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .2px solid rgb(203, 203, 203);;
+
+}
+
+.purchased-products {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.quatity-wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .quatity {
+    font-size: 1.2rem;
+}
+
+.title:hover {
+    cursor: pointer;
+    color: #F8371F;
+}
+
+.price {
+    font-size: 1.2rem;
+}

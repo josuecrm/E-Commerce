@@ -1,0 +1,88 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-bar-container {
+    padding: 20px 20px 0px 20px;
+}
+
+.search-bar {
+    width: 1024px;
+    padding-bottom: 20px;
+    position: relative;
+    margin: auto;
+    
+}
+
+.search{
+    width: 1024px;
+    height: 60px;
+    padding: 15px;
+    box-shadow: 0 0 6px rgb(1, 11, 2, .1);
+    border-radius: 15px;
+    border: .2px solid rgb(203, 203, 203);
+    outline: none;
+}
+
+.button-search {
+    width: 120px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.search-bar .button-search:hover {
+    background-color: rgb(67, 67, 67);
+}
+.categories-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F8371F;
+}
+
+.categories {
+    width: 1024px;
+    display: flex;
+}
+
+.button-categorie {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    flex: 1;
+    position: static;
+    background-color: #F8371F;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    transition: all .2s ease;
+}
+
+.button-categorie:hover {
+    border-bottom: 8px solid white;
+    cursor: pointer;
+
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.cards {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}

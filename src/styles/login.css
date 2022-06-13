@@ -1,0 +1,67 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    border: .2px solid rgb(203, 203, 203);
+    box-shadow: 0 0 6px rgb(1, 11, 2, .1);
+    padding: 30px;
+}
+
+.title-form {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.test-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+}
+
+.form div > input {
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 15px;
+    background: #ffffff;
+    color: rgb(62, 62, 62);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-top: 10px;
+}
+
+.field {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.submit {
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #F8371F;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.submit:hover {
+    background-color: #ff5740;
+    cursor: pointer;
+}

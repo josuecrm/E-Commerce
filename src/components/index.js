@@ -1,0 +1,5 @@
+export { default as ImageSlider } from './ImageSlider'
+export { default as Loader } from './Loader'
+export { default as ProductCard } from './ProductCard'
+export { default as NavBar } from './NavBar'
+export { default as ProtectedRoutes } from './ProtectedRoutes'
